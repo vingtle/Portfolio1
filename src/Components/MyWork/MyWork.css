@@ -1,0 +1,69 @@
+.mywork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 10%;
+}
+
+.mywork-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 30px;
+    margin-bottom: 50px;
+    overflow-wrap: break-word;
+   
+    justify-content: center;
+}
+
+.title-box h1 {
+    margin-bottom: 80px;
+}
+
+.mywork-card {
+    flex: 0 0 20%;
+    min-width: 400px;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.mywork-card img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    object-fit: contain;
+}
+
+.mywork-card:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 1060px) {
+    .mywork-grid {
+        gap: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .mywork-card {
+        flex: 0 0 30%;
+        min-width: 220px;
+    }
+    
+}
+@media (max-width: 600px) {
+    .mywork-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 20px;
+    }
+    .mywork-card {
+        flex: 0 0 45%;
+    }
+    
+}
