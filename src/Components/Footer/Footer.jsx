@@ -19,7 +19,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="footer-bottom">
-        <p className="footer-bottom-left">© 2023 VingtL3. All rights reserved.</p>
+        <p className="footer-bottom-left">© 2024 VingtL3. All rights reserved.</p>
         <div className="footer-bottom-right">
             <p>Github</p>
             <p>Linkedin</p>
