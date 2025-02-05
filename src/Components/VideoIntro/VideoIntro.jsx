@@ -1,5 +1,5 @@
 import React from "react";
-import "./videoIntro.css";
+import "./videointro.css";
 
 const VideoIntro = ({ onVideoEnd }) => {
   return (
